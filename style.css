@@ -1,0 +1,127 @@
+html,body{
+	background-image: url('todo.jpg');
+  height:100%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+  color: #3838f2;
+}
+h3 {
+  font-size : 30px;
+  display: inline;
+  color: #1717e4cc;
+}
+a {
+  text-decoration: none;
+  color: #1717e4cc;
+}
+li:last-child{
+  padding-bottom: 20px;
+}
+li{
+  padding: 15px;
+  padding-left: 0px;
+  font-size: 25px;
+}
+hr{
+  margin: 75px;
+  border: 2px solid #0000ff29;
+  border-radius: 8px;
+}
+#btn{
+  font-size: 20px;
+  border-radius: 4px;
+  background: #ffffff73;
+}
+#projects{
+  border: 3px solid #0000ff29;
+  border-radius: 20px;
+}
+#btn_newList {
+  float: right;
+  margin-right: 100px;
+  margin-top: 16px;
+  height: 30px;
+  width: 130px;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: #80808059;
+  color: #1332ad;
+  margin-top: 39px;
+}
+#btn_newTask {
+  float: right;
+  margin-right: 15px;
+  margin-top: 16px;
+  height: 30px;
+  width: 130px;
+  border-radius: 7px;
+  font-size: 20px;
+  background-color: #80808059;
+  color: #1332ad;
+  margin-top: 39px;
+}
+}
+#taskTable{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#addTask{
+	text-align: center;
+}
+#list {
+  background-color: #fffff070;
+  margin-top: 10px;
+  margin: 10%;
+  border-radius: 10px;
+}
+#title {
+  text-align: left;
+  margin-bottom: -50px;
+  margin-left: 110px;
+  padding-top: 20px;
+}
+#tab {
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 0px;
+  margin-bottom: -5px;
+}
+
+#link {
+  margin-top: -19px;
+  padding: 0px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.toDo-input{
+	border-style: none;
+	background: transparent; 
+	outline: none;
+}
+html::after {
+	content:'';
+	background: linear-gradient(21deg, #10abff, #1beabd);
+	height:3px;
+	width:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.done {
+  background-color: #FFFFF0ad;
+  margin-top: 10px;
+  margin: 10%;
+
+}
