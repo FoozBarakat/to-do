@@ -1,0 +1,138 @@
+body {
+    background-image: url('todo.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: #1717e4cc;
+}
+
+li:last-child {
+    padding-bottom: 20px;
+}
+
+li {
+    padding: 15px;
+    font-size: 25px;
+
+}
+
+ol {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    font-family: 'Handlee', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-family: 'Handlee', cursive;
+}
+
+#container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+    padding: 30px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+
+#projects {
+    border: 3px solid #0000ff29;
+    border-radius: 20px;
+}
+
+#taskTable {
+    margin: 1% 5%;
+}
+
+.todo-btn {
+    height: 30px;
+    width: 130px;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #80808059;
+    color: #1332ad;
+    margin-bottom: 10px;
+}
+
+#btn_newList {
+    float: left;
+    margin-left: 20px;
+}
+
+#btn_newTask {
+    float: right;
+    margin-right: 20px;
+}
+
+.list {
+    /*
+  The most common way to use the clear property 
+  is after you have used a float property on an element.
+  we use clear to clear the left and right float of list-btn and task-btn
+  */
+    clear: both;
+    background-color: #fffff070;
+    margin-top: 10px;
+    margin: 10%;
+    border-radius: 10px;
+}
+
+#tab {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 0px;
+    margin-bottom: -18px;
+    margin-top: 20px;
+
+}
+
+.link {
+    margin-top: -19px;
+    padding: 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 4px;
+    background: #ffffff73;
+}
+
+/* Begin Done Section*/
+
+
+.done {
+    background-color: #FFFFF0ad;
+    margin-top: 10px;
+    margin: 10%;
+
+} 
